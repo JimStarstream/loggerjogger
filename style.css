@@ -1,0 +1,249 @@
+html, body
+{
+    -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+    scroll-behavior: smooth;
+    font-family: 'Mohave', sans-serif;
+margin:0px;
+}
+.wrapper
+{
+    min-width: 100%;
+}
+.wrapper .main-nav ul
+{
+    list-style-type: none;
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    position: fixed;
+}
+
+    li:first-child {
+        margin-right: auto;
+    }
+    
+    
+
+.wrapper .main-nav ul li a
+{
+font-size: 2rem;
+color:rgb(173, 173, 173);
+text-decoration: none;
+padding: 10px;
+float:right;
+margin:10px;
+
+}
+
+.wrapper .main-nav ul li a:hover
+{
+    color:orange;
+    
+}
+.wrapper .main-nav ul li a:active
+{
+    color:orange;
+    
+}
+.hero
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: url("images/Loggerbg.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.avatar-img img
+{
+    height:100px;
+    width:100px;
+}
+h1
+{
+padding:0;
+color:white;
+font-size:5rem;
+}
+.centerhero
+{   display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.linkarrow
+{
+
+
+flex-wrap:wrap;
+}
+.downloadbtn
+{
+
+text-decoration: none;
+cursor:pointer;
+color:white;
+font-size: 2rem;
+padding: 0.5rem 3rem;
+border:1px solid lightgray;
+
+}
+.downloadbtn:hover {
+    
+    color:orange;
+    border:1px solid orange;
+  }
+  .htp
+  {
+      display: flex;
+      align-items: center;
+      min-height: 100vh;
+      
+  }
+  .flex
+  {
+      max-width: 1170px;
+      margin:0 auto;
+      display:flex;
+      justify-content:space-between;
+  }
+
+  .box
+  {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        
+        
+  }
+
+  .text-box{
+      padding: 30px;
+  }
+
+  .box:last-child{
+      margin-left: 50px;
+  }
+
+  .box .text p
+  {
+    font-family: 'Mohave', sans-serif;
+    font-style:italic;
+    font-size:1.5rem;
+  }
+  .about
+  { 
+    display: flex;
+    align-items: center;
+    min-height: 100vh;  
+  }
+  
+    
+     
+ 
+  .download
+  {
+      min-height:80vh;
+      
+      display: flex;
+      
+      justify-content: center;
+  }
+  footer
+  {
+      min-height:20vh;
+      background-color:black;
+  }
+  .footer-text
+  {
+        color:white;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  }
+  .box img
+  {
+
+      height:500px;
+      width:500px;
+      object-fit: cover;
+  }
+  .creators
+  {
+      
+    display: flex;
+    align-items: center;
+    min-height:80vh;
+    }
+  .box-creators
+  { 
+      display: flex;
+      flex-direction: column;
+    align-items: center;
+        box-shadow: -2px 3px 10px 2px rgb(233, 233, 233);
+      padding: 60px;
+  }
+  .box-creators:last-child
+  {
+  margin-left: 100px;
+}
+  .flex-box-creators
+  {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .avatar-img img
+    {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        box-shadow: -2px 3px 10px 1px rgb(226, 226, 226);
+    }
+    .avatar-text
+    {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .box-creators:last-child
+    {
+        margin-left:300px;
+    }
+    .content-box
+    {
+       align-items: center;
+    }
+    .content-box:last-child
+    {
+        margin-left: 200px;
+    }
+    .content-box a
+    {
+        color:black;
+    text-decoration: none;
+    cursor:pointer;
+    color:download;
+    font-size: 2rem;
+    padding: 0.5rem 3rem;
+    background-color:transparent;
+    border:1px solid lightgray;
+    }
+    .content-box a:hover
+    {
+        color:orange;
+        border:1px solid orange;
+
+    }
+    .content-box ul li
+    {
+        list-style:none;
+    }
